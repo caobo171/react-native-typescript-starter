@@ -1,4 +1,4 @@
-package com.selftaught;
+package com.starter;
 
 import com.facebook.react.ReactActivity;
 

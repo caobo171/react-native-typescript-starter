@@ -1,4 +1,4 @@
-package com.selftaught;
+package com.starter;
 
 import android.app.Application;
 import android.content.Context;
