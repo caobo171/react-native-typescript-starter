@@ -7,18 +7,16 @@
  */
 
 import React from 'react';
+import {Provider } from 'react-redux'
 
-
-import Test from '@components/Test'
-import HomeScreen from '@pages/HomeScreen'
 import AppContainer from '@/navigation/AppContainer';
-
+import store from '@store/store'
 
 const App = () => {
   return (
-    <React.Fragment>
+    <Provider store = {store}>
        <AppContainer/>
-    </React.Fragment>
+    </Provider>
   );
 };
 
