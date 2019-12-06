@@ -1,4 +1,4 @@
-package com.starter;
+package com.admob;
 
 import com.facebook.react.ReactActivity;
 
